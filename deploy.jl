@@ -1,4 +1,5 @@
 using ArgParse
+using ArtifactUtils
 
 function parse_commandline()
     s = ArgParseSettings(description="upload folder to gist")

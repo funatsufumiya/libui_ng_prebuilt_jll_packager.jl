@@ -5,6 +5,8 @@ authors = ["Fumiya Funatsu <funatsu.fumiya@gmail.com>"]
 
 [deps]
 ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
+ArtifactUtils = "8b73e784-e7d8-4ea5-973d-377fed4e3bce"
 
 [compat]
 ArgParse = "1.2.0"
+ArtifactUtils = "0.2.5"
