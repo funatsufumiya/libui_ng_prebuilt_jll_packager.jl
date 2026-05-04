@@ -25,7 +25,7 @@ println("dir: $dir")
 artifact_id = artifact_from_directory(dir)
 println("artifact_id: $artifact_id")
 
-gist = upload_to_gist(artifact_id)
+gist = upload_to_gist(artifact_id, private=false)
 println("")
 println("$gist")
 
