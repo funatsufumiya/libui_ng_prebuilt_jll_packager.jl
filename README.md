@@ -9,3 +9,34 @@
 ```bash
 $ julia --project=@. deploy.jl -h
 ```
+
+## Notes for Artifacts.toml
+
+```toml
+# win_x64
+
+[libui_ng_prebuilt_jll]
+git-tree-sha1 = "4c60793c0d54666de9b276d5cd7a07c619fea6a0"
+
+    [[libui_ng_prebuilt_jll.download]]
+    sha256 = "58693271b6d865aeae0c9492156dbdc4fdca296848cadfca7befeeb310fdd7e7"
+    url = "https://gist.github.com/funatsufumiya/f5a165f9dd77980ac398517293d36677/raw/4c60793c0d54666de9b276d5cd7a07c619fea6a0.tar.gz"
+
+# mac
+
+[libui_ng_prebuilt_jll]
+git-tree-sha1 = "78f0358049310638f5a7f80bf28a8e2c27e61610"
+
+    [[libui_ng_prebuilt_jll.download]]
+    sha256 = "cc90b48eceb42967efe1b76a13b9b9a28da60cbce8dc5f05b413ed764c09373b"
+    url = "https://gist.github.com/funatsufumiya/75f8d3fd87750262807759b9bdfd759a/raw/78f0358049310638f5a7f80bf28a8e2c27e61610.tar.gz"
+
+# linux_x64
+[libui_ng_prebuilt_jll]
+git-tree-sha1 = "049b0b7dabbb0491b0657603e23244cc0790e19a"
+
+    [[libui_ng_prebuilt_jll.download]]
+    sha256 = "129f5c183df9b556a37054bcdc08427dba6ac3786bbaca6e1cc318ce31e925ad"
+    url = "https://gist.github.com/funatsufumiya/2debecd45c6db419b77db41456d79c9c/raw/049b0b7dabbb0491b0657603e23244cc0790e19a.tar.gz"
+
+```

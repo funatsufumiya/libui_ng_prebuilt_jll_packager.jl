@@ -21,3 +21,13 @@ if !isdir(dir)
 end
 
 println("dir: $dir")
+
+artifact_id = artifact_from_directory(dir)
+println("artifact_id: $artifact_id")
+
+gist = upload_to_gist(artifact_id)
+println("")
+println("$gist")
+
+rm("Artifacts.toml", force=true)
+add_artifact!("Artifacts.toml", "libui_ng_prebuilt_jll", gist)
